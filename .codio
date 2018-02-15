@@ -1,0 +1,18 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+    "Compile": "make bin/Game.class",
+    "Run Game": "make run",
+    "Clean Project": "make clean",
+    "Prettify File": "java -jar /home/codio/bin/google-java-format-1.5-all-deps.jar --replace {{filepath}}",
+    "Zip Project": "make zip"
+  },
+
+// Preview button configuration
+  "preview": {
+        "View Game": "https://{{domain3000}}/"
+  },
+  "debugger": [{"type":"JAVA","command":"-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105","before":"","uuid":"6e6a3124-7b93-2bf9-193e-daf9caf18923","name":"table"}]
+}

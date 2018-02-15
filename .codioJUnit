@@ -1,0 +1,20 @@
+{
+ "mainSource": "src",
+ "testSource": "test",
+ "libraries": "",
+ "cases": [
+  {
+   "path": "test/AppleTest.java",
+   "className": "AppleTest"
+  },
+  {
+   "path": "test/PopOutTest.java",
+   "className": "PopOutTest"
+  },
+  {
+   "path": "test/SnakeTest.java",
+   "className": "SnakeTest"
+  }
+ ],
+ "wd": ""
+}
